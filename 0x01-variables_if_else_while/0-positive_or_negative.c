@@ -4,6 +4,13 @@
 #include <stdio.h>
 
 /* betty style doc for function main goes there */
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 int n;
@@ -21,7 +28,7 @@ printf("%d is negative\n", n);
 }
 else
 {
-printf("%d is sero\n", n);
+printf("%d is zero\n", n);
 }
 return (0);
 }
