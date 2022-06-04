@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+char charType,
+int intType,
+long int lIntType,
+long long int lLIntType,
+float floatType,
+
+printf("Size of a char: %zu byte(s)\n", sizeof(charType));
+printf("Size of an integer: %zu byte(s)\n", sizeof(intType));
+printf("Size of a long int: %zu byte(s)\n", sizeof(lIntType));
+printf("Size of a long long int: %zu byte(s)\n", sizeof(lLIntType));
+printf("Size of a float: %zu byte(s)\n", sizeof(floatType));
+
+return (0);
+}
