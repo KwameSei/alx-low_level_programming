@@ -1,18 +1,23 @@
 #include "main.h"
 
 /**
- *_abs - checks for absolute value
+ *print_last_digit - checks for absolute value
  *@n: character to check
  *
- *Description: Prints n absolute number.
- *Return: n
+ *Description: Prints last digits of numbers.
+ *Return: d
  */
 
 int print_last_digit(int n)
 {
 int d;
- 
-d = n/10;
 
-return (0);
+d = (n % 10);
+if (d < 0)
+{
+d = (-1 * d);
+}
+_putchar(d + '0');
+
+return (d);
 }
