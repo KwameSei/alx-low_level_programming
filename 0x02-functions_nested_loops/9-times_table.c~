@@ -1,0 +1,24 @@
+#include "main.h"
+
+/**
+*print_last_digit - checks for absolute value
+*@n: character to check
+*
+*Description: Prints last digits of numbers.
+*Return: d
+*/
+
+void times_table(void)
+{
+  int n;
+  int i * 9;
+
+    if (n = 0; n <= 9; n++)
+      {
+	if (i = 0; i <= 9; i++)
+	  {
+	    _putchar(i);
+	  }
+	_putchar('\n');
+    }
+}
