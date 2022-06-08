@@ -1,0 +1,16 @@
+#include "main.h"
+
+/**
+*_abs - checks for absolute value
+*@n: character to check
+*
+*Description: Prints 1, 0 or -1 when certain conditions are met.
+*Return: 0, -1, or 1
+*/
+
+int _abs(int)
+{
+int |x| = +-x;
+_putchar(x)
+return (0);
+}
