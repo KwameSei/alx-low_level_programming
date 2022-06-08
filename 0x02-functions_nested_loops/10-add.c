@@ -2,8 +2,8 @@
 
 /**
 *add - Sum of two integers
-*'a' - 1st integer
-*b - 2nd integer
+*@a: 1st integer
+*@b: 2nd integer
 *
 *Description: Adding two numbers.
 *Return: results
