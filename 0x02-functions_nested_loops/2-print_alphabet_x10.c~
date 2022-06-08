@@ -1,0 +1,22 @@
+#include "main.h"
+
+/**
+ * print_alphabet - Make the alphabet
+ *
+ * Return: void.
+ */
+
+void print_alphabet_x10(void)
+{
+char c;
+char j;
+
+for (c = 0; c <= 10; c++)
+{
+for (j = 'a'; j <= 'z'; j++)
+{
+_putchar(c);
+}
+_putchar('\n');
+}
+}
