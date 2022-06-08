@@ -1,0 +1,23 @@
+#include "main.h"
+
+/**
+ *print_to_98 - Sum of two integers
+ *@n: 1st integer
+ *@b: 2nd integer
+ *
+ *Description: Adding two numbers.
+ *Return: results
+ */
+
+void print_to_98(int n)
+{
+  while (n != 89)
+    {
+      printf("%d, ", n);
+      if (n > 98)
+	n--;
+      else
+	n++
+    }
+  printf("98\n");
+}
