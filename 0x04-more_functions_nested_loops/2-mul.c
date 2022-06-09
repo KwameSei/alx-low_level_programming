@@ -5,12 +5,12 @@
 * Multiplies two numbers
 *@a: connecting character 1
 *@b: connecting character 2
-* Return: 0 or 1.
+* Return: 0.
 */
 int mul(int a, int b)
 {
-  int results;
-  
-  results = a * b;
-  return (results);
+int results;
+
+results = a * b;
+return (results);
 }
