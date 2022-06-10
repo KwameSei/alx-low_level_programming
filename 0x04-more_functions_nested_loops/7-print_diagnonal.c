@@ -1,0 +1,32 @@
+å#include "main.h"
+
+/**
+* print_diagonal - This function prints
+* Multiplies lines
+*@n: connecting character 1
+*@x: connecting character 2
+*@y: connecting character 3
+* Return: 0.
+*/
+
+void print_diagonal(int n)
+{
+int x, y;
+
+if (n <= 0)
+{
+_putchar('\n');
+}
+else
+{
+for (x = 0; x < n; x++)
+{
+for (y = 0; y < x; y++)
+{
+_putchar(32);
+}
+_putchar(92);
+_putchar('\n');
+}
+}
+}
