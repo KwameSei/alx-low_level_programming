@@ -4,8 +4,6 @@
 * print_square - This function prints
 * characters in square shape
 *@size: connecting parameter
-*@x: connecting character 1
-*@y: connecting character 2
 * Return: 0.
 */
 
