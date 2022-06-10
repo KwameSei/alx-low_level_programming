@@ -3,8 +3,6 @@
 /**
 * more_numbers - This function prints
 * Numbers from 0 to 14 ten times
-*@n: connecting character
-*@i: connecting character
 * Return: void.
 */
 
