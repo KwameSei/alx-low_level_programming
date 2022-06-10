@@ -1,0 +1,30 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+* mul - This function prints
+* Multiplies two numbers
+*@a: connecting character 1
+*@b: connecting character 2
+* Return: 0.
+*/
+int main(int n)
+{
+  for (n = 1; n <= 100; n++)
+    {
+      if (n % 3 == 0)
+	{
+	  printf("Fizz ");
+	}
+      else if (n % 5 == 0)
+	{
+	  printf("Buzz ");
+	}
+      else if (n % 15 == 0)
+	{
+	  printf("Fizz Buzz ");
+	}
+      printf("\n");
+    }
+return (0);
+}
