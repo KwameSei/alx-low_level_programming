@@ -1,0 +1,26 @@
+#include "main.h"
+
+/**
+* print_numbers - This function prints
+* Multiplies two numbers
+*@n: connecting character
+* Return: 0.
+*/
+
+void print_most_numbers(void)
+{
+int n;
+
+for (n = '0'; n <= '9'; n++)
+{
+if(n == 2 || n == 4)
+{
+continue;
+}
+else
+{
+_putchar(n);
+}
+}
+_putchar('\n');
+}
