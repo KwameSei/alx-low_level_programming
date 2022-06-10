@@ -3,7 +3,6 @@
 /**
 * print_numbers - This function prints
 * Multiplies two numbers
-*@n: connecting character
 * Return: 0.
 */
 
