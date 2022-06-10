@@ -4,7 +4,6 @@
 /**
 * main - This function prints
 * Fizz Buzz game
-*@n: connecting character 1
 * Return: 0.
 */
 int main(void)
