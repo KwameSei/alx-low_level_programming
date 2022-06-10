@@ -3,7 +3,6 @@
 /**
 * print_most_numbers - This function prints
 * Numbers from 0 to 9 excerpt 2 and 4
-*@n: connecting character
 * Return: 0.
 */
 
