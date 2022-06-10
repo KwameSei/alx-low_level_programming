@@ -4,8 +4,6 @@
 * print_diagonal - This function prints
 * Multiplies lines
 *@n: connecting character 1
-*@x: connecting character 2
-*@y: connecting character 3
 * Return: 0.
 */
 
