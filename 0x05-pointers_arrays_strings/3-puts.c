@@ -2,20 +2,20 @@
 #include <string.h>
 
 /**
- * _strlen - This function prints
- * the length of a string
+ * _puts - This function prints
+ * a string
  *@s: connecting character 1
  * Return: i.
  */
 
 void _puts(char *str)
 {
-  int i = 0;
+int i = 0;
 
-  while (*(str + i))
-    {
-      _putchar(*(str + i));
-	i++;
-    }
-  _putchar('\n');
+while (*(str + i))
+{
+_putchar(*(str + i));
+i++;
+}
+_putchar('\n');
 }
