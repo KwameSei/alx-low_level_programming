@@ -4,7 +4,7 @@
 /**
  * _puts - This function prints
  * a string
- *@s: connecting character 1
+ *@str: connecting character 1
  * Return: i.
  */
 
