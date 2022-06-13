@@ -2,19 +2,18 @@
 #include <string.h>
 
 /**
- * mul - This function prints
- * Multiplies two numbers
- *@a: connecting character 1
- *@b: connecting character 2
- * Return: 0.
+ * _strlen - This function prints
+ * the length of a string
+ *@s: connecting character 1
+ * Return: i.
  */
 
 int _strlen(char *s)
 {
-  int i = 0;
+int i = 0;
 
-  while (*(s + i))
-    i++;
+while (*(s + i))
+i++;
 
-  return (i);
+return (i);
 }
