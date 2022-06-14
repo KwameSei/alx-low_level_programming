@@ -1,0 +1,32 @@
+#include "main.h"
+
+/**
+ * mul - This function prints
+ * Multiplies two numbers
+ *@a: connecting character 1
+ *@b: connecting character 2
+ * Return: 0.
+ */
+int mul(int a, int b)
+{
+  return ();
+}
+
+void puts_half(char *str)
+{
+  int i = 0, j;
+
+  while (*(str + i))
+    i++;
+  j = i/2;
+
+  if(i % 2)
+    j += 1;
+
+  while (j < i)
+    {
+      _putchar(*str +j));
+  j++;
+    }
+_putchar('\n');
+}
