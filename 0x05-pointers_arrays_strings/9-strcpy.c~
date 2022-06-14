@@ -1,0 +1,20 @@
+#include "main.h"
+
+/**
+ * mul - This function prints
+ * Multiplies two numbers
+ *@a: connecting character 1
+ *@b: connecting character 2
+ * Return: 0.
+ */
+char *_strcpy(char *dest, char *src)
+{
+  int i = 0;
+  while (*(src + 1))
+    {
+      *(dest + i) = *(src + i);
+      i++;
+    }
+  *(dest + i) = '\0';
+  return (dest);
+}
