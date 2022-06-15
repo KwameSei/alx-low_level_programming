@@ -1,0 +1,24 @@
+#include "main.h"
+
+/**
+ * mul - This function prints
+ * Multiplies two numbers
+ *@a: connecting character 1
+ *@b: connecting character 2
+ * Return: 0.
+ */
+
+char *_strcat(char *desk, char *src)
+{
+  while(*desk)
+    desk++;
+  while(src)
+    {
+    *desk = *src;
+  src++;
+  desk++;
+    }
+  *desk = '\0';
+
+  return (0);
+}
