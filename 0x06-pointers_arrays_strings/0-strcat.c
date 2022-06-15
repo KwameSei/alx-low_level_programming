@@ -18,7 +18,7 @@ while (*src != '\0')
 *ptr++ = *src++;
 }
 
-*ptr = '\n';
- 
+/* *ptr = '\n'; */
+
 return (dest);
 }
