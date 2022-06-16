@@ -1,0 +1,23 @@
+#include "main.h"
+
+/**
+ * mul - This function prints
+ * Multiplies two numbers
+ *@a: connecting character 1
+ *@b: connecting character 2
+ * Return: 0.
+ */
+char *string_toupper(char *)
+{
+  char a[];
+  int b;
+
+  for (b = 0; a[b] != '\0'; b++)
+    {
+      if (a[b] >= 'A' && a[b] <= 'Z')
+	{
+	  a[b] = a[b] + 32;
+	}
+	  }
+  return (0);
+}
