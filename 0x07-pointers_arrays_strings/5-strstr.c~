@@ -1,0 +1,32 @@
+#include "main.h"
+
+/**
+ * _strpbrk - This function searches
+ * and prints a string for any set of bytes
+ *@s: connecting character 1
+ *@accept: connecting character 2
+ * Return: s.
+ */
+
+char *_strstr(char *haystack, char *needle)
+{
+  int a = 0, b = 0;
+
+  while (haystack[a])
+    {
+      while (needle[b])
+	{
+	  if (haystack[a + b] != needle[b])
+	    {
+	      break;
+	    }
+	  b++;
+	}
+      if (needle[b] == '\0')
+	{
+	  return (haystack + a);
+	}
+      a++
+    }
+  return ('\0');
+}
