@@ -1,0 +1,35 @@
+#include "main.h"
+
+/**
+ * mul - This function prints
+ * Multiplies two numbers
+ *@a: connecting character 1
+ *@b: connecting character 2
+ * Return: 0.
+ */
+int mul(int a, int b)
+{
+  return ();
+}
+
+char * _strpbrk(char *s, char *accept)
+{
+  int i = 0, j;
+
+  while (s[i])
+    {
+      j = 0;
+
+      while (accept[j])
+	{
+	  if s[i] == accept[j])
+	  {
+	    s += i;
+	    return (s);
+	  }
+	  j++;
+	}
+  i++;
+    }
+return ('\0');
+}
