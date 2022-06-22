@@ -1,0 +1,21 @@
+ #include "main.h"
+
+/**
+ * mul - This function prints
+ * Multiplies two numbers
+ *@a: connecting character 1
+ *@b: connecting character 2
+ * Return: 0.
+ */
+int _strlen_recursion(char *s)
+{
+  if (*s == '\0')
+    {
+      return (0);
+    }
+  else
+    {
+      return 1 + _strlen_recursion(s + 1); 
+    }
+  return (s);
+}
