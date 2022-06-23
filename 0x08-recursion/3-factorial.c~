@@ -1,0 +1,27 @@
+#include "main.h"
+
+/**
+ * mul - This function prints
+ * Multiplies two numbers
+ *@a: connecting character 1
+ *@b: connecting character 2
+ * Return: 0.
+ */
+
+int factorial(int n)
+{
+
+  if (n < 0)
+    {
+      return (-1);
+    }
+  else if (n == 0)
+    {
+      return (1);
+    }
+  else
+    {
+      return (n = n * factorial(n-1));
+    }
+  return ();
+}
