@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - This function prints
@@ -10,8 +11,11 @@
  */
 int main(int argc, char *argv[])
 {
-argc = 0;
+
+if (argc)
+{
 printf("%s\n", argv[0]);
+}
 
 return (0);
 }
