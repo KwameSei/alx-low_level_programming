@@ -23,6 +23,7 @@ for (a = 0; s1[a] != '\0'; a++)
 ;
 
 for (b = 0; s2[b] != '\0'; b++)
+;
 
 str = malloc(sizeof(char) * (a + b + 1));
 
@@ -36,7 +37,7 @@ for (c = 0; c < a; c++)
 str[c] = s1[c];
 
 limit = b;
-for (b = 0; b <= limit; b++, c++)
+for (b = 0; b <= limit; c++, b++)
 str[c] = s2[b];
 
 return (str);
