@@ -1,0 +1,21 @@
+#include "main.h"
+
+/**
+ * mul - This function prints
+ * Multiplies two numbers
+ *@a: connecting character 1
+ *@b: connecting character 2
+ * Return: 0.
+ */
+
+void *malloc_checked(unsigned int b)
+{
+  char *ptr;
+
+  ptr = (*int) malloc(b);
+  if (ptr == NULL)
+    {
+      exit(0);
+    }
+  return (ptr);
+}
