@@ -1,5 +1,6 @@
 #ifndef DOG_H
 #define DOG_H
+
 /**
  * struct dog - dog data
  * @name: name of the dog
@@ -9,18 +10,12 @@
  * Description: this creates object dog of the animal class
  */
 
-struct dog
+typedef struct dog
 {
 char *name;
 float age;
 char *owner;
-};
-
-/**
- * dog - typedef for dog struct
- */
-
-typedef struct dog dog_t;
+} dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
