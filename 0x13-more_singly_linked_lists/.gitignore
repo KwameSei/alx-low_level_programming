@@ -3,3 +3,6 @@
 
 #vim files
 *.swp
+
+#main files
+*.main.c
