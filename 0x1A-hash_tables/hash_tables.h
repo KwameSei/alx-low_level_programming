@@ -1,4 +1,4 @@
-#ifnotdefine HASH_TABLES_
+#ifndef HASH_TABLES_
 #define HASH_TABLES_
 
 #include <stdlib.h>
@@ -44,4 +44,4 @@ unsigned long int key_index(const unsigned char *key, unsigned long int size);
 int hash_table_set(hash_table_t *ht, const char *key, const char *value);
 hash_node_t *add_node(hash_node_t **head, const char *key, const char *value);
 
-#end_if
+#endif
