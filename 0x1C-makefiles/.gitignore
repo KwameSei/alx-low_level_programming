@@ -2,3 +2,4 @@
 *.swp
 school
 a.out
+*.o
