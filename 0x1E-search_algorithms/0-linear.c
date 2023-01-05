@@ -1,5 +1,4 @@
 #include "search_algos.h"
-#include "stdio.h"
 
 /**
  * linear_search - A function that searches for a value in an
@@ -11,7 +10,6 @@
  *
  * Description: Prints a value every time it is compared in the array.
  */
-
 int linear_search(int *array, size_t size, int value)
 {
 	size_t i;
