@@ -1,9 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
 
 /**
  * main - Entry point
@@ -13,7 +8,7 @@
 
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle");
 
-return (0);
+	return (0);
 }

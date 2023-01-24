@@ -1,9 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
 
 /**
  * main - Entry point
@@ -13,17 +8,23 @@
 
 int main(void)
 {
-char charType;
-int intType;
-long int lIntType;
-long long int lLIntType;
-float floatType;
+	char charType;
+	int intType;
+	long int lIntType;
+	long long int lLIntType;
+	float floatType;
 
-printf("Size of a char: %zu byte(s)\n", sizeof(charType));
-printf("Size of an int: %zu byte(s)\n", sizeof(intType));
-printf("Size of a long int: %zu byte(s)\n", sizeof(lIntType));
-printf("Size of a long long int: %zu byte(s)\n", sizeof(lLIntType));
-printf("Size of a float: %zu byte(s)\n", sizeof(floatType));
+	char acharacter;
+	int ainteger;
+	long along;
+	long long alonglong;
+	float afloat;
 
-return (0);
+	printf("Size of a char: %lu byte(s)\n", sizeof(acharacter));
+	printf("Size of an int: %lu byte(s)\n", sizeof(ainteger));
+	printf("Size of a long int: %lu byte(s)\n", sizeof(along));
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(alonglong));
+	printf("Size of a float: %lu byte(s)\n", sizeof(afloat));
+
+	return (0);
 }
